@@ -7,13 +7,10 @@
 # pay close attention!!
 # Variable declaration
 PASSWD_admin=123456
-DOMAIN="dc=jengcloud,dc=com"
-DN="cn=admin,dc=jengcloud,dc=com"
-OR=jengcloud
-# DN zhongde cn zhideshi zhetiao mulu de guanliyuan hou mian shi yvming
-# OR zai jiaoben zuzhiming he dc=jengcloud 
-# PASSWD keyi suibian gai
-# install all
+DOMAIN="dc=zxc,dc=com"
+DN="cn=admin,dc=zxc,dc=com"
+OR=zxc
+
 yum -y install openldap compat-openldap openldap-clients openldap-servers openldap-servers-sql openldap-devel migrationtools
 yum install -y epel-release 
 #############################################
